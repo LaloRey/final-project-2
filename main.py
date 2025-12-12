@@ -3,7 +3,7 @@ This file starts the program and opens the window
 """
 import sys
 from PyQt6.QtWidgets import QApplication
-from controller import VoteWindow
+from logic import *
 
 def main():
     """

@@ -42,8 +42,7 @@ class VoteWindow(QMainWindow, Ui_MainWindow):
     def show_status(self, msg: str, kind: str = "info") -> None:
         """
         Returns the text of the selected radio button.
-        or NONE if nothing is selected.
-
+        
         """
         color = "black"
         if kind == "error":
